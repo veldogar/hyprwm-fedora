@@ -1,0 +1,1 @@
+# hyprwm for fedora
