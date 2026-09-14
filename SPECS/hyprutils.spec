@@ -44,8 +44,9 @@ Development files for hyprutils.
 %{_includedir}/hyprutils/
 
 %changelog
-* Fri Aug 21 2026 Veldogar v0.14.1
-- Initial version
 
 * Thu Sep 10 2026 Veldogar v0.14.2
 - Regular Update
+
+* Fri Aug 21 2026 Veldogar v0.14.1
+- Initial version

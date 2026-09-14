@@ -3,9 +3,6 @@ Version:        0.15.0
 Release:        1%{?dist}
 Summary:        Aquamarine is a very light linux rendering backend library
 
-Vendor:         Veldogar
-Packager:       Veldogar
-
 License:        BSD-3-Clause
 URL:            https://github.com/hyprwm/aquamarine/
 Source0:        https://github.com/hyprwm/aquamarine/archive/refs/tags/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
