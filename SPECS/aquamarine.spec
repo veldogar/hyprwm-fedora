@@ -1,5 +1,5 @@
 Name:           aquamarine
-Version:        0.15.0
+Version:        0.15.1
 Release:        1%{?dist}
 Summary:        Aquamarine is a very light linux rendering backend library
 
@@ -55,5 +55,10 @@ Development files for aquamarine.
 %{_libdir}/pkgconfig/aquamarine.pc
 
 %changelog
+
+* Fri Sep 18 2026 Veldogar v0.15.1
+- Regular update
+-  A small update with a few minor fixes
+
 * Fri Aug 21 2026 Veldogar v0.15.0
 - Initial version
