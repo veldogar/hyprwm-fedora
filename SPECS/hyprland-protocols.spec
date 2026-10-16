@@ -2,7 +2,7 @@
 %global debug_package %{nil}
 
 Name:           %{hypr_name}-devel
-Version:        0.7.1
+Version:        0.8.0
 Release:        1%{?dist}
 Summary:        Wayland protocol extensions for Hyprland.
 
@@ -32,10 +32,13 @@ Wayland protocol extensions for Hyprland.
 
 %changelog
 
+* Fri Oct 16 2026 Veldogar v0.8.0
+- Update
+
 * Fri Sep 18 2026 Veldogar v0.7.1
-- Regular update
--  A minor release with a small version bump of input care
-- Meson -> CMake
+- Update
+    A minor release with a small version bump of input care
+    Meson -> CMake
 
 * Fri Aug 21 2026 Veldogar v0.7.0
 - Initial version
