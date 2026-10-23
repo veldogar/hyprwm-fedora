@@ -1,5 +1,5 @@
 Name:           hyprutils
-Version:        0.14.2
+Version:        0.14.3
 Release:        1%{?dist}
 Summary:        Hyprland utilities library used across the ecosystem
 
@@ -45,8 +45,11 @@ Development files for hyprutils.
 
 %changelog
 
+* Thu Sep 10 2026 Veldogar v0.14.3
+- Update
+
 * Thu Sep 10 2026 Veldogar v0.14.2
-- Regular Update
+- Update
 
 * Fri Aug 21 2026 Veldogar v0.14.1
 - Initial version
