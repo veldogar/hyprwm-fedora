@@ -1,5 +1,5 @@
 Name:           xdg-desktop-portal-hyprland
-Version:        1.4.1
+Version:        1.5.0
 Release:        1%{?dist}
 Summary:        xdg-desktop-portal backend for Hyprland
 
@@ -12,6 +12,7 @@ BuildRequires:  gcc-c++
 BuildRequires:  hyprutils-devel
 BuildRequires:  hyprlang-devel
 BuildRequires:  hyprwayland-scanner-devel
+BuildRequires:  hyprtoolkit-devel
 BuildRequires:  libdrm-devel
 BuildRequires:  qt6-qtbase-devel
 BuildRequires:  pipewire-devel
@@ -45,5 +46,9 @@ xdg-desktop-portal backend for Hyprland
 %doc README.md
 
 %changelog
+* Wed Oct 28 2026 Veldogar v1.5.0
+- Update
+- Add hyprtoolkit build requirement
+
 * Fri Aug 21 2026 Veldogar v1.4.1
 - Initial version
