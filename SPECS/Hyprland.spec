@@ -1,8 +1,8 @@
 %global glaze_version	7.2.0
 
 Name:           Hyprland
-Version:        0.56.2
-Release:        2%{?dist}
+Version:        0.57.0
+Release:        1%{?dist}
 Summary:        Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor.
 
 License:        BSD-3-Clause
@@ -38,6 +38,8 @@ BuildRequires:  xcb-util-errors-devel
 BuildRequires:  readline-devel
 BuildRequires:  tomlplusplus-devel
 BuildRequires:  lua-devel
+BuildRequires:  libcanberra-devel
+BuildRequires:  sdbus-cpp-devel
 
 BuildRequires:  aquamarine-devel
 BuildRequires:  hyprlang-devel
@@ -83,17 +85,16 @@ ln -s Hyprland %{buildroot}%{_bindir}/hyprland
 %{_bindir}/start-hyprland
 
 %{_datadir}/hypr/
-%{_datadir}/bash-completion/completions/hyprctl
 %{_datadir}/bash-completion/completions/hyprpm
-%{_datadir}/fish/vendor_completions.d/hyprctl.fish
 %{_datadir}/fish/vendor_completions.d/hyprpm.fish
-%{_datadir}/zsh/site-functions/_hyprctl
 %{_datadir}/zsh/site-functions/_hyprpm
 %{_datadir}/man/man1/Hyprland.1.gz
 %{_datadir}/man/man1/hyprctl.1.gz
 %{_datadir}/wayland-sessions/hyprland-uwsm.desktop
 %{_datadir}/wayland-sessions/hyprland.desktop
 %{_datadir}/xdg-desktop-portal/hyprland-portals.conf
+
+%{_prefix}/lib64/systemd/user/hyprland-session.target
 
 %license LICENSE
 %doc README.md
@@ -103,5 +104,14 @@ ln -s Hyprland %{buildroot}%{_bindir}/hyprland
 %{_datadir}/pkgconfig/hyprland.pc
 
 %changelog
+* Wed Oct 28 2026 Veldogar v0.57.0
+- Big update
+- %build
+ - Add libcanberra as build requirement
+ - Add sdbus-cpp as build requirement
+- %files
+ - Remove hyprctl shell completion files
+ - Add /usr/lib64/systemd/user/hyprland-session.target
+
 * Fri Aug 21 2026 Veldogar v0.56.2
 - Initial version 
