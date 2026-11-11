@@ -1,7 +1,7 @@
 %global glaze_version	7.2.0
 
 Name:           Hyprland
-Version:        0.57.0
+Version:        0.57.2
 Release:        1%{?dist}
 Summary:        Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor.
 
@@ -104,6 +104,10 @@ ln -s Hyprland %{buildroot}%{_bindir}/hyprland
 %{_datadir}/pkgconfig/hyprland.pc
 
 %changelog
+
+* Wed Nov 11 2026 Veldogar v0.57.2
+- Update
+
 * Wed Oct 28 2026 Veldogar v0.57.0
 - Big update
 - %build
