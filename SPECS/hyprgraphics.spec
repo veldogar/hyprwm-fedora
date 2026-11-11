@@ -1,5 +1,5 @@
 Name:           hyprgraphics
-Version:        0.5.1
+Version:        0.6.0
 Release:        1%{?dist}
 Summary:        Hyprland graphics / resource utilities
 
@@ -53,5 +53,9 @@ Development files for hyprgraphics.
 %{_libdir}/pkgconfig/hyprgraphics.pc
 
 %changelog
+
+* Wed Nov 11 2026 Veldogar v0.6.0
+- Update
+
 * Fri Aug 21 2026 Veldogar v0.5.1
 - Initial version
