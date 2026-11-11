@@ -1,5 +1,5 @@
 Name:           hyprcursor
-Version:        0.1.13
+Version:        0.1.14
 Release:        1%{?dist}
 Summary:        The hyprland cursor format, library and utilities.
 
@@ -49,5 +49,9 @@ Development files for hyprcursor.
 %{_libdir}/pkgconfig/hyprcursor.pc
 
 %changelog
+
+* Wed Nov 11 2026 Veldogar v0.1.14
+- Update
+
 * Fri Aug 21 2026 Veldogar v0.1.13
 - Initial version
