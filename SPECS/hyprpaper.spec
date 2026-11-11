@@ -1,6 +1,6 @@
 Name:           hyprpaper
-Version:        0.8.4
-Release:        2%{?dist}
+Version:        0.8.5
+Release:        1%{?dist}
 Summary:        Hyprpaper is a wayland wallpaper utility with IPC controls
 
 License:        BSD-3-Clause
@@ -46,6 +46,10 @@ Hyprpaper is a wayland wallpaper utility with IPC controls.
 %doc README.md
 
 %changelog
+
+* Wed Nov 11 2026 Veldogar v0.8.5
+- Update
+
 * Thu Sep 10 2026 Veldogar v0.8.4-2
 - Recompile: ABI change in hyprtoolkit v0.5.4 -> v0.6.0
 
