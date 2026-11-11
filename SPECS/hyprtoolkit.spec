@@ -1,6 +1,6 @@
 Name:           hyprtoolkit
 Version:        0.6.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        A modern C++ Wayland-native GUI toolkit
 
 License:        BSD-3-Clause
@@ -58,6 +58,9 @@ Development files for hyprtoolkit.
 %{_libdir}/pkgconfig/hyprtoolkit.pc
 
 %changelog
+
+* Wed Nov 11 2026 Veldogar v0.6.0
+- aquamarine abi change v0.15.1 -> v0.16.0
 
 * Thu Sep 10 2026 Veldogar v0.6.0
 - Regular Update
